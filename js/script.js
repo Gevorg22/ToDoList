@@ -12,11 +12,11 @@ const showNotification = type => {
     let newElement = document.createElement('div');
     switch(type) {
         case 'new':
-            newElement.className = 'alert alert-warning'; 
+            newElement.className = 'alert alert-primary'; 
             newElement.textContent = 'Task added!';
             break;
         case 'delete':
-            newElement.className = 'alert alert-primary'; 
+            newElement.className = 'alert alert-warning'; 
             newElement.textContent = 'Task deleted!';
             break;
     }
