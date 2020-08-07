@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="container">
+            <div class="sun"></div>
+            <div class="grass"></div>
+            <div class="square"></div>
+            <div class="notification">
+                <div class="show-notification"></div>
+            </div>
+            <a href="index.html" class="app-title"><img src="./img/title.png" alt="Your ToDo List" class="app-title--img"></a>
+            <div class="h4 app-subtitle">Your task list</div>
+            <ul class="list-group list-group-flush"></ul>
+            <div class="card bg-light">
+                <div class="card-header">Add new task here
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.646 9.646a.5.5 0 0 1 .708 0L8 12.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M8 2.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5z"/>
+                    </svg>
+                </div>
+                <div class="card-body">
+                    <form class="newTaskForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control addNewTask" autofocus placeholder="Task text">
+                        </div>
+                        <button type="submit" class="btn btn-primary  btn-lg active">Add task</button>
+                    </form>
+                </div>
+            </div><!-- card bg-light -->
+        </div><!-- container -->
+    </div><!-- screen -->
+</body>
+</html>
