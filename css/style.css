@@ -140,6 +140,7 @@ body {
 }
 
 .card-header {
+    font-size: 13px;
     cursor: default;
 }
 
