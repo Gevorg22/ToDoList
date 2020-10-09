@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     background: steelblue;
     box-shadow: 0 -400px 300px -300px orangered inset;
-    animation: sky-change 30s infinite linear;
+    animation: sky-change 20s infinite linear;
 }
 
 .grass {
